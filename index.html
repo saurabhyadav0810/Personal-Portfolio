@@ -1,11 +1,72 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Personal Portfolio</title>
-</head>
-<body>
-    <h1>Saurabh yadav</h1>
-</body>
-</html>
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Outfit:wght@500;700;800&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="style.css" />
+    <!-- for Icons-->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    />
+  </head>
+  <body>
+    <nav>
+      <div class="container nav-container">
+        <div class="logo">Port<span>folio</span>.</div>
+        <ul class="nav-links">
+          <li><a href="#home" class="active">Home</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#skills">Skills</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#certificates">Certificates</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </div>
+    </nav>
+
+    <section id="home" class="hero">
+      <div class="container hero-container">
+        <div class="hero-content">
+          <h3>Hello, This is</h3>
+          <h1 class="">Saurabh Yadav</h1>
+          <h3 class="">A CSE Student & Web Developer</h3>
+          <p class="">
+            I'm a Computer Science Engineering student at Lovely Professional
+            University, passionate about Web Development, Data Analysis, and
+            Problem Solving.
+          </p>
+          <div class="hero-btns">
+            <a
+              href="./Saurabh Yadav.pdf"
+              target="_blank"
+              class="btn btn-primary"
+              download
+              >Download CV</a
+            >
+            <a href="#contact" class="btn btn-outline">Contact Me</a>
+          </div>
+        </div>
+
+        <div class="hero-image">
+          <div class="img-box">
+            <img src="user_photo.jpeg" alt="User Image" />
+          </div>
+        </div>
+      </div>
+
+      <div class="scrolldown">
+        <a href="#about">
+          <i class="fa-solid fa-angle-down"></i>
+        </a>
+      </div>
+    </section>
